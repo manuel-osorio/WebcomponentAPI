@@ -1,0 +1,71 @@
+:host {
+    border: 1px solid;
+    width: 100%;
+}
+*{
+    margin: 0px auto;
+}
+form{
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table{
+    margin-left:5px;
+    width: 100px;
+    margin-top: 10px;
+}
+thead{
+    background-color: beige;
+}
+tbody{
+
+    font-size: 12px;
+    width: 60px;
+    height: 15px;
+    
+}
+tr:first-child{
+
+font-size: large;
+font-weight: bold;
+background-color: #ec9005;
+color: rgb(18, 27, 35);
+    
+}
+td {
+    border: 1px solid;
+    text-align: center;
+    width: 400px;
+    border-collapse: collapse;
+}
+
+tr:hover{
+    background-color: rgb(210, 150, 20);
+}
+button-share,button-limpiar{
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+    border-color: 1px black;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background: #ec9005;
+    color: rgb(18, 16, 16);
+    transition: .5s ease;
+    border-radius: 1px;
+}
+button-share:hover{
+    background-color: transparent;
+    border: 2px solid #d88e10;
+    box-shadow: 0 0 10px 0 #e19f06 inset, 0 0 10px 0 #ba9261;
+    border-radius: 1px;
+}
+button-limpiar:hover{
+    background-color: transparent;
+    border: 2px solid #d88e10;
+    box-shadow: 0 0 10px 0 #e19f06 inset, 0 0 10px 0 #ba9261;
+    border-radius: 1px;
+}
